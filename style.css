@@ -190,11 +190,13 @@ button.ghost {
   font-family: var(--font-display);
 }
 
-.contact-section {
+.contact-section,
+.comments-section {
   margin-top: 60px;
 }
 
-.contact-section .card {
+.contact-section .card,
+.comments-section .card {
   background: var(--card);
   padding: 40px;
   border-radius: 28px;

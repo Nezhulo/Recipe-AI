@@ -24,6 +24,7 @@ const translations = {
     formEmail: "Email",
     formMessage: "Message",
     formSubmit: "Send Message",
+    commentsTitle: "Comments",
   },
   ko: {
     eyebrow: "레시피 AI",
@@ -70,6 +71,7 @@ const translations = {
     formEmail: "メールアドレス",
     formMessage: "メッセージ",
     formSubmit: "メッセージを送信",
+    commentsTitle: "コメント",
   }
 };
 
