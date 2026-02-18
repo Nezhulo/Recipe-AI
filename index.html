@@ -12,39 +12,45 @@
       <div class="brand">
         <span class="logo">RA</span>
         <div class="brand-text">
-          <p class="eyebrow">Recipe AI</p>
-          <h1>Cook smarter with AI</h1>
+          <p class="eyebrow" data-t="eyebrow">Recipe AI</p>
+          <h1 data-t="title">Cook smarter with AI</h1>
         </div>
       </div>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
-        <span class="toggle-label">Theme</span>
-        <span class="toggle-state" data-theme-state>System</span>
-      </button>
+      <div class="header-controls">
+        <button id="lang-toggle" class="theme-toggle" type="button">
+          <span class="toggle-label">Language</span>
+          <span class="toggle-state" data-lang-state>English</span>
+        </button>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+          <span class="toggle-label" data-t="theme">Theme</span>
+          <span class="toggle-state" data-theme-state>System</span>
+        </button>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <p class="lead">
+        <p class="lead" data-t="heroLead">
           Generate recipes, remix leftovers, and plan your week in seconds.
         </p>
         <div class="cta-row">
-          <button class="primary">Start cooking</button>
-          <button class="ghost">Browse recipes</button>
+          <button class="primary" data-t="startCooking">Start cooking</button>
+          <button class="ghost" data-t="browseRecipes">Browse recipes</button>
         </div>
       </section>
 
       <section class="features">
         <article>
-          <h2>Pantry → Plate</h2>
-          <p>Type what you have. We craft meals around it.</p>
+          <h2 data-t="feature1Title">Pantry → Plate</h2>
+          <p data-t="feature1Desc">Type what you have. We craft meals around it.</p>
         </article>
         <article>
-          <h2>Smart Nutrition</h2>
-          <p>Adjust macros and servings instantly.</p>
+          <h2 data-t="feature2Title">Smart Nutrition</h2>
+          <p data-t="feature2Desc">Adjust macros and servings instantly.</p>
         </article>
         <article>
-          <h2>Weekly Plan</h2>
-          <p>Auto-build a calendar and shopping list.</p>
+          <h2 data-t="feature3Title">Weekly Plan</h2>
+          <p data-t="feature3Desc">Auto-build a calendar and shopping list.</p>
         </article>
       </section>
     </main>

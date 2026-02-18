@@ -55,6 +55,12 @@ body {
   margin-bottom: 64px;
 }
 
+.header-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .brand {
   display: flex;
   align-items: center;
