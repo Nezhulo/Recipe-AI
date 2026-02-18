@@ -3,12 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <title>Recipe AI</title>
+  <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand">
+        <span class="logo">RA</span>
+        <div class="brand-text">
+          <p class="eyebrow">Recipe AI</p>
+          <h1>Cook smarter with AI</h1>
+        </div>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+        <span class="toggle-label">Theme</span>
+        <span class="toggle-state" data-theme-state>System</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="lead">
+          Generate recipes, remix leftovers, and plan your week in seconds.
+        </p>
+        <div class="cta-row">
+          <button class="primary">Start cooking</button>
+          <button class="ghost">Browse recipes</button>
+        </div>
+      </section>
+
+      <section class="features">
+        <article>
+          <h2>Pantry → Plate</h2>
+          <p>Type what you have. We craft meals around it.</p>
+        </article>
+        <article>
+          <h2>Smart Nutrition</h2>
+          <p>Adjust macros and servings instantly.</p>
+        </article>
+        <article>
+          <h2>Weekly Plan</h2>
+          <p>Auto-build a calendar and shopping list.</p>
+        </article>
+      </section>
+    </main>
+  </div>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
